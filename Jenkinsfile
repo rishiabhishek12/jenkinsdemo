@@ -3,7 +3,7 @@ pipeline {
         stages{
             stage("Git-checkout"){
                 steps{
-               git branch: 'azure3', credentialsId: 'Github-cred', url: 'https://github.com/vnc-digital/BeaconUserService.git'
+               sh "echo  hi" 
             }
             }
         
